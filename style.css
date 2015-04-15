@@ -1,0 +1,53 @@
+.top{
+	height: 75px;
+	background: #fff;
+}
+
+.menu-contentwrap{
+	background: url('images/menu-bg.png') repeat-x;	
+	height: 103px;
+	z-index: -1;
+}
+
+.menubg-wrap{
+	background: url('images/header-menu-bg.png') no-repeat;
+	height: 126px;
+	z-index: 1;
+	position: relative;
+	background-position: 25% 0px;
+}
+
+.logo img{
+	padding-top: 30px;
+}
+/******************Top Nav************************/
+
+.nav nav{
+	padding-top: 50px;
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 18px;
+	color: #4d4d4d;
+	padding-left: 0px;
+	margin-left: 40px;
+}
+
+.nav nav ul{
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.nav nav ul > li{
+	display: inline;
+	padding-right: 2em;
+	background: url("images/menu-principal-separateur.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	background-position: 0px 100%;
+    float: left;
+    height: 54px;
+    padding-left: 35px;
+    padding-right: 0px;
+    padding-top: 5px;
+    position: relative;
+    margin-right: .5em;
+}
+/******************Top Nav************************/
